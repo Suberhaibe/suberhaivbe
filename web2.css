@@ -1,0 +1,36 @@
+body{
+ background-color: rgb(15, 0, 100);
+ color: darkgreen;
+
+}
+
+h1{
+    text-align: center;
+    color: brown;
+
+
+}
+h2{
+    text-align: center;
+    color: bisque;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.program{
+    text-align: right;
+}
+
+.mit{
+    border: 3px solid white;
+}
+
+.tek{
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+}
+a{
+    text-decoration: double;
+}
