@@ -1,0 +1,55 @@
+body{
+    display: grid;
+grid-template-columns:1fr 1fr;
+    grid-template-rows: 80px 50px auto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main1 main2"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: chartreuse;
+}
+
+nav{
+    grid-area: nav;
+    background-color: antiquewhite;
+}
+
+nav> ul{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;   
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkcyan;
+}
+
+
+section{
+
+
+}
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
