@@ -1,7 +1,6 @@
 body{
- background-color: rgb(15, 0, 100);
+ background-color: rgb(157, 167, 130);
  color: darkgreen;
-
 }
 
 h1{
@@ -12,11 +11,10 @@ h1{
 }
 h2{
     text-align: center;
-    color: bisque;
+    color: rgb(109, 68, 18);
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 }
 .program{
     text-align: right;
@@ -34,3 +32,11 @@ p{
 a{
     text-decoration: double;
 }
+
+.om{
+    text-align: center;
+    border-style: solid;
+    border-color: bisque;
+    text-decoration: wavy;
+}
+
