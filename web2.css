@@ -6,28 +6,31 @@ body{
 h1{
     text-align: center;
     color: brown;
+    font-size: 70px;
 
 
 }
 h2{
     text-align: center;
     color: rgb(109, 68, 18);
+
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.program{
-    text-align: right;
+    color: rgb(53, 12, 29);
 }
 
 .mit{
-    border: 3px solid white;
+    border-color: bisque;
+    text-align: center;
+    border-style: solid;
+    text-decoration: wavy;
 }
 
-.tek{
-    background-color: aquamarine;
+.h{
     text-align: center;
-    color: brown;
+    color: black;
+    font-size: larger;
 }
 a{
     text-decoration: double;
